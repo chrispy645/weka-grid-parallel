@@ -1,0 +1,1 @@
+parallel -a generate-in.txt --colsep ' ' --max-procs 2 './weka.sh {1} {2} {3}'
